@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build src/styles.css -o styles.css"
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "prettier": "^2.4.1",
     "tailwindcss": "^2.2.17"
   }
 }
